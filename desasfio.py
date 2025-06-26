@@ -1,4 +1,19 @@
-menu = """
+usuario_correto = "romir"
+senha_correta = "1234"
+
+print("===== LOGIN =====")
+usuario = input("Usuário: ")
+senha = input("Senha: ")
+
+if usuario == usuario_correto and senha == senha_correta:
+    print("Login realizado com sucesso!\n")
+
+else:
+    print("Usuário ou senha incorretos!")
+    exit()
+
+menu = """ 
+
 [d] Depositar
 [s] Sacar
 [e] Extrato
